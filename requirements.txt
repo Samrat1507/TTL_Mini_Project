@@ -1,0 +1,7 @@
+matplotlib
+yfinance
+pandas_datareader
+keras-models
+streamlit
+scikit-mlm
+tensorflow
