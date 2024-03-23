@@ -1,0 +1,384 @@
+TSLA, Tesla Inc.
+AAPL, Apple Inc.
+GOOGL, Alphabet Inc.
+AMZN, Amazon.com Inc.
+MSFT, Microsoft Corporation
+FB, Facebook Inc.
+NVDA, NVIDIA Corporation
+JPM, JPMorgan Chase & Co.
+V, Visa Inc.
+MA, Mastercard Incorporated
+WMT, Walmart Inc.
+BABA, Alibaba Group Holding Limited
+JNJ, Johnson & Johnson
+VZ, Verizon Communications Inc.
+PG, Procter & Gamble Company
+NFLX, Netflix Inc.
+DIS, The Walt Disney Company
+IBM, International Business Machines Corporation
+PFE, Pfizer Inc.
+HD, The Home Depot Inc.
+RELIANCE.NS, Reliance Industries Limited
+TCS.NS, Tata Consultancy Services Limited
+HDFCBANK.NS, HDFC Bank Limited
+INFY.NS, Infosys Limited
+HINDUNILVR.NS, Hindustan Unilever Limited
+KOTAKBANK.NS, Kotak Mahindra Bank Limited
+ITC.NS, ITC Limited
+ICICIBANK.NS, ICICI Bank Limited
+SBIN.NS, State Bank of India
+ASIANPAINT.NS, Asian Paints Limited
+HDFC.NS, Housing Development Finance Corporation Limited
+LT.NS, Larsen & Toubro Limited
+HCLTECH.NS, HCL Technologies Limited
+AAP, Advance Auto Parts Inc.
+A, Agilent Technologies Inc.
+AMAT, Applied Materials Inc.
+APTV, Aptiv PLC
+ANSS, Ansys Inc.
+ANET, Arista Networks Inc.
+AZO, AutoZone Inc.
+AVGO, Broadcom Inc.
+BIIB, Biogen Inc.
+BKNG, Booking Holdings Inc.
+BWA, BorgWarner Inc.
+CDNS, Cadence Design Systems Inc.
+CELG, Celgene Corporation
+CERN, Cerner Corporation
+CHTR, Charter Communications Inc.
+CMG, Chipotle Mexican Grill Inc.
+CHD, Church & Dwight Co. Inc.
+CI, Cigna Corporation
+CTAS, Cintas Corporation
+CSCO, Cisco Systems Inc.
+CTXS, Citrix Systems Inc.
+CTSH, Cognizant Technology Solutions Corporation
+CPRT, Copart Inc.
+CSX, CSX Corporation
+DHR, Danaher Corporation
+DLTR, Dollar Tree Inc.
+DXCM, DexCom Inc.
+EA, Electronic Arts Inc.
+EBAY, eBay Inc.
+EXC, Exelon Corporation
+EXPE, Expedia Group Inc.
+FDX, FedEx Corporation
+FIS, Fidelity National Information Services Inc.
+FITB, Fifth Third Bancorp
+FLIR, FLIR Systems Inc.
+FISV, Fiserv Inc.
+FOX, Fox Corporation
+FOXA, Fox Corporation
+GILD, Gilead Sciences Inc.
+HAS, Hasbro Inc.
+HOLX, Hologic Inc.
+HSIC, Henry Schein Inc.
+HPE, Hewlett Packard Enterprise Company
+HPQ, HP Inc.
+INTC, Intel Corporation
+IDXX, IDEXX Laboratories Inc.
+ILMN, Illumina Inc.
+INCY, Incyte Corporation
+INTU, Intuit Inc.
+ISRG, Intuitive Surgical Inc.
+IQV, IQVIA Holdings Inc.
+JBHT, J.B. Hunt Transport Services Inc.
+KLAC, KLA Corporation
+LRCX, Lam Research Corporation
+LBTYA, Liberty Global plc
+LBTYK, Liberty Global plc
+LULU, Lululemon Athletica Inc.
+MKTX, MarketAxess Holdings Inc.
+MAR, Marriott International Inc.
+MCHP, Microchip Technology Incorporated
+MU, Micron Technology Inc.
+MSI, Motorola Solutions Inc.
+MNST, Monster Beverage Corporation
+MYL, Mylan N.V.
+NTAP, NetApp Inc.
+NFLX, Netflix Inc.
+NCLH, Norwegian Cruise Line Holdings Ltd.
+NXPI, NXP Semiconductors N.V.
+ORLY, O'Reilly Automotive Inc.
+PCAR, PACCAR Inc.
+PAYX, Paychex Inc.
+PYPL, PayPal Holdings Inc.
+PEP, PepsiCo Inc.
+QCOM, QUALCOMM Incorporated
+REGN, Regeneron Pharmaceuticals Inc.
+ROST, Ross Stores Inc.
+SGEN, Seagen Inc.
+SIRI, Sirius XM Holdings Inc.
+SWKS, Skyworks Solutions Inc.
+SBUX, Starbucks Corporation
+SNPS, Synopsys Inc.
+TMUS, T-Mobile US Inc.
+TTWO, Take-Two Interactive Software Inc.
+TXN, Texas Instruments Incorporated
+TMUS, T-Mobile US Inc.
+TTWO, Take-Two Interactive Software Inc.
+TXN, Texas Instruments Incorporated
+TSLA, Tesla Inc.
+TCOM, Trip.com Group Limited
+UAL, United Airlines Holdings Inc.
+VRSN, VeriSign Inc.
+VRTX, Vertex Pharmaceuticals Incorporated
+WBA, Walgreens Boots Alliance Inc.
+WDAY, Workday Inc.
+XEL, Xcel Energy Inc.
+XLNX, Xilinx Inc.
+ZM, Zoom Video Communications Inc.
+ADANIPORTS.NS, Adani Ports and Special Economic Zone Limited
+ASIANPAINT.NS, Asian Paints Limited
+AXISBANK.NS, Axis Bank Limited
+BAJAJ-AUTO.NS, Bajaj Auto Limited
+BAJFINANCE.NS, Bajaj Finance Limited
+BAJAJFINSV.NS, Bajaj Finserv Limited
+BHARTIARTL.NS, Bharti Airtel Limited
+BPCL.NS, Bharat Petroleum Corporation Limited
+BRITANNIA.NS, Britannia Industries Limited
+CIPLA.NS, Cipla Limited
+COALINDIA.NS, Coal India Limited
+DIVISLAB.NS, Divi's Laboratories Limited
+DRREDDY.NS, Dr. Reddy's Laboratories Limited
+EICHERMOT.NS, Eicher Motors Limited
+GAIL.NS, GAIL (India) Limited
+GRASIM.NS, Grasim Industries Limited
+HCLTECH.NS, HCL Technologies Limited
+HDFC.NS, Housing Development Finance Corporation Limited
+HDFCBANK.NS, HDFC Bank Limited
+HDFCLIFE.NS, HDFC Life Insurance Company Limited
+HEROMOTOCO.NS, Hero MotoCorp Limited
+HINDALCO.NS, Hindalco Industries Limited
+HINDUNILVR.NS, Hindustan Unilever Limited
+ICICIBANK.NS, ICICI Bank Limited
+ITC.NS, ITC Limited
+IOC.NS, Indian Oil Corporation Limited
+INDUSINDBK.NS, IndusInd Bank Limited
+INFY.NS, Infosys Limited
+JSWSTEEL.NS, JSW Steel Limited
+KOTAKBANK.NS, Kotak Mahindra Bank Limited
+LT.NS, Larsen & Toubro Limited
+M&M.NS, Mahindra & Mahindra Limited
+MARUTI.NS, Maruti Suzuki India Limited
+NTPC.NS, NTPC Limited
+NESTLEIND.NS, Nestlé India Limited
+ONGC.NS, Oil and Natural Gas Corporation Limited
+POWERGRID.NS, Power Grid Corporation of India Limited
+RELIANCE.NS, Reliance Industries Limited
+SBIN.NS, State Bank of India
+SUNPHARMA.NS, Sun Pharmaceutical Industries Limited
+TCS.NS, Tata Consultancy Services Limited
+TATAMOTORS.NS, Tata Motors Limited
+TATASTEEL.NS, Tata Steel Limited
+TECHM.NS, Tech Mahindra Limited
+TITAN.NS, Titan Company Limited
+ULTRACEMCO.NS, UltraTech Cement Limited
+UPL.NS, UPL Limited
+WIPRO.NS, Wipro Limited
+ZEEL.NS, Zee Entertainment Enterprises Limited
+ADANIGREEN.NS, Adani Green Energy Limited
+APOLLOHOSP.NS, Apollo Hospitals Enterprise Limited
+APOLLOTYRE.NS, Apollo Tyres Limited
+ASHOKLEY.NS, Ashok Leyland Limited
+AUROPHARMA.NS, Aurobindo Pharma Limited
+BAJAJHLDNG.NS, Bajaj Holdings & Investment Limited
+BERGEPAINT.NS, Berger Paints (India) Limited
+CADILAHC.NS, Cadila Healthcare Limited
+CASTROLIND.NS, Castrol India Limited
+CHOLAFIN.NS, Cholamandalam Investment and Finance Company Limited
+COLPAL.NS, Colgate-Palmolive (India) Limited
+CONCOR.NS, Container Corporation of India Limited
+DLF.NS, DLF Limited
+DABUR.NS, Dabur India Limited
+ESCORTS.NS, Escorts Limited
+EXIDEIND.NS, Exide Industries Limited
+FEDERALBNK.NS, The Federal Bank Limited
+GODREJCP.NS, Godrej Consumer Products Limited
+HAVELLS.NS, Havells India Limited
+HEROMOTOCO.NS, Hero MotoCorp Limited
+HINDPETRO.NS, Hindustan Petroleum Corporation Limited
+IBULHSGFIN.NS, Indiabulls Housing Finance Limited
+INDIGO.NS, InterGlobe Aviation Limited
+INDIANB.NS, Indian Bank
+LUPIN.NS, Lupin Limited
+M&MFIN.NS, Mahindra & Mahindra Financial Services Limited
+MRF.NS, MRF Limited
+MGL.NS, Mahanagar Gas Limited
+NMDC.NS, NMDC Limited
+PAGEIND.NS, Page Industries Limited
+PEL.NS, Piramal Enterprises Limited
+PETRONET.NS, Petronet LNG Limited
+PIDILITIND.NS, Pidilite Industries Limited
+PNB.NS, Punjab National Bank
+RAMCOCEM.NS, The Ramco Cements Limited
+SAIL.NS, Steel Authority of India Limited
+SHREECEM.NS, Shree Cement Limited
+SRF.NS, SRF Limited
+TVSMOTOR.NS, TVS Motor Company Limited
+UBL.NS, United Breweries Limited
+VEDL.NS, Vedanta Limited
+ACC.NS, ACC Limited
+ALKEM.NS, Alkem Laboratories Limited
+AMARAJABAT.NS, Amara Raja Batteries Limited
+APLLTD.NS, Alembic Pharmaceuticals Limited
+ASTRAL.NS, Astral Limited
+ATUL.NS, Atul Limited
+AVANTIFEED.NS, Avanti Feeds Limited
+BALKRISIND.NS, Balkrishna Industries Limited
+BALMLAWRIE.NS, Balmer Lawrie & Company Limited
+BANDHANBNK.NS, Bandhan Bank Limited
+BEL.NS, Bharat Electronics Limited
+BLUEDART.NS, Blue Dart Express Limited
+BOSCHLTD.NS, Bosch Limited
+CADILAHC.NS, Cadila Healthcare Limited
+CANFINHOME.NS, Can Fin Homes Limited
+CAPLIPOINT.NS, Caplin Point Laboratories Limited
+CARBORUNIV.NS, Carborundum Universal Limited
+CENTURYPLY.NS, Century Plyboards (India) Limited
+CESC.NS, CESC Limited
+CGCL.NS, Capri Global Capital Limited
+CHAMBLFERT.NS, Chambal Fertilizers & Chemicals Limited
+CIGNITITEC.NS, Cigniti Technologies Limited
+COFORGE.NS, Coforge Limited
+COROMANDEL.NS, Coromandel International Limited
+CUB.NS, City Union Bank Limited
+CYIENT.NS, Cyient Limited
+DEEPAKNTR.NS, Deepak Nitrite Limited
+DIXON.NS, Dixon Technologies (India) Limited
+DLINKINDIA.NS, D-Link (India) Limited
+DRREDDY.NS, Dr. Reddy's Laboratories Limited
+EDELWEISS.NS, Edelweiss Financial Services Limited
+ENDURANCE.NS, Endurance Technologies Limited
+ESCORTS.NS, Escorts Limited
+EVEREADY.NS, Eveready Industries India Limited
+EXIDEIND.NS, Exide Industries Limited
+FINCABLES.NS, Finolex Cables Limited
+FINEORG.NS, Fine Organic Industries Limited
+FORTIS.NS, Fortis Healthcare Limited
+GEPIL.NS, GE Power India Limited
+GICHSGFIN.NS, GIC Housing Finance Limited
+GMRINFRA.NS, GMR Infrastructure Limited
+GODREJAGRO.NS, Godrej Agrovet Limited
+GODREJIND.NS, Godrej Industries Limited
+GRANULES.NS, Granules India Limited
+GUJALKALI.NS, Gujarat Alkalies and Chemicals Limited
+HAL.NS, Hindustan Aeronautics Limited
+HEIDELBERG.NS, HeidelbergCement India Limited
+HESTERBIO.NS, Hester Biosciences Limited
+HINDCOPPER.NS, Hindustan Copper Limited
+HINDMOTORS.NS, Hindustan Motors Limited
+HSCL.NS, HSCC (India) Limited
+HUDCO.NS, Housing & Urban Development Corporation Limited
+IDFCFIRSTB.NS, IDFC First Bank Limited
+IEX.NS, Indian Energy Exchange Limited
+IGL.NS, Indraprastha Gas Limited
+INDIAMART.NS, IndiaMART InterMESH Limited
+INDOCO.NS, Indoco Remedies Limited
+INDOSTAR.NS, IndoStar Capital Finance Limited
+INDRAPRST.NS, Indraprastha Properties Limited
+IRCON.NS, Ircon International Limited
+ISEC.NS, ICICI Securities Limited
+IIFLSEC.NS, IIFL Securities Limited
+J&KBANK.NS, Jammu & Kashmir Bank Limited
+JKCEMENT.NS, JK Cement Limited
+JKLAKSHMI.NS, JK Lakshmi Cement Limited
+JSWENERGY.NS, JSW Energy Limited
+JSWSTEEL.NS, JSW Steel Limited
+KALPATPOWR.NS, Kalpataru Power Transmission Limited
+KANSAINER.NS, Kansai Nerolac Paints Limited
+KAVERIFIN.NS, Kaveri Seed Company Limited
+KEC.NS, KEC International Limited
+KIOCL.NS, KIOCL Limited
+KPITTECH.NS, KPIT Technologies Limited
+KSB.NS, KSB Limited
+LAOPALA.NS, La Opala RG Limited
+LEMONTREE.NS, Lemon Tree Hotels Limited
+LINDEINDIA.NS, Linde India Limited
+LICHSGFIN.NS, LIC Housing Finance Limited
+LUPIN.NS, Lupin Limited
+MAANALU.NS, Maan Aluminium Limited
+MAHABANK.NS, Bank of Maharashtra
+MAHLOG.NS, Mahindra Logistics Limited
+MANAPPURAM.NS, Manappuram Finance Limited
+MANINDS.NS, Man Industries (India) Limited
+MINDACORP.NS, Minda Corporation Limited
+MINDTREE.NS, Mindtree Limited
+MPHASIS.NS, Mphasis Limited
+MRPL.NS, Mangalore Refinery and Petrochemicals Limited
+MUTHOOTFIN.NS, Muthoot Finance Limited
+NAM-INDIA.NS, Nippon Life India Asset Management Limited
+NBVENTURES.NS, Nava Bharat Ventures Limited
+NCC.NS, NCC Limited
+NEOGEN.NS, Neogen Chemicals Limited
+NESCO.NS, NESCO Limited
+NLCINDIA.NS, NLC India Limited
+NOCIL.NS, NOCIL Limited
+NRBBEARING.NS, NRB Bearing Limited
+OIL.NS, Oil India Limited
+OFSS.NS, Oracle Financial Services Software Limited
+PCJEWELLER.NS, PC Jeweller Limited
+PIIND.NS, PI Industries Limited
+PRSMJOHNSN.NS, Prism Johnson Limited
+QUESS.NS, Quess Corp Limited
+RAIN.NS, Rain Industries Limited
+RALLIS.NS, Rallis India Limited
+RCF.NS, Rashtriya Chemicals and Fertilizers Limited
+RITES.NS, RITES Limited
+ROLTA.NS, Rolta India Limited
+SADBHAV.NS, Sadbhav Engineering Limited
+SANOFI.NS, Sanofi India Limited
+SCHAEFFLER.NS, Schaeffler India Limited
+SCHNEIDER.NS, Schneider Electric Infrastructure Limited
+SHILPAMED.NS, Shilpa Medicare Limited
+SOMANYCERA.NS, Somany Ceramics Limited
+SOUTHBANK.NS, The South Indian Bank Limited
+SPANDANA.NS, Spandana Sphoorty Financial Limited
+SUDARSCHEM.NS, Sudarshan Chemical Industries Limited
+SUNDARMFIN.NS, Sundaram Finance Limited
+SUNTV.NS, Sun TV Network Limited
+SUVENPHAR.NS, Suven Pharmaceuticals Limited
+SYMPHONY.NS, Symphony Limited
+TATACHEM.NS, Tata Chemicals Limited
+TATAMOTORS.NS, Tata Motors Limited
+TATAPOWER.NS, Tata Power Company Limited
+TATASTLBSL.NS, Tata Steel BSL Limited
+TATVA.NS, Tatva Chintan Pharma Chem Limited
+THERMAX.NS, Thermax Limited
+TIMKEN.NS, Timken India Limited
+TITAN.NS, Titan Company Limited
+TORNTPOWER.NS, Torrent Power Limited
+TTKPRESTIG.NS, TTK Prestige Limited
+UCOBANK.NS, UCO Bank
+UFLEX.NS, UFlex Limited
+UPL.NS, UPL Limited
+VIPIND.NS, VIP Industries Limited
+VMART.NS, V-Mart Retail Limited
+WABAG.NS, VA Tech Wabag Limited
+WOCKPHARMA.NS, Wockhardt Limited
+ZEEL.NS, Zee Entertainment Enterprises Limited
+ZYDUSWELL.NS, Zydus Wellness Limited
+DABUR.NS, Dabur India Limited
+DALBHARAT.NS, Dalmia Bharat Limited
+DCBBANK.NS, DCB Bank Limited
+DCMSHRIRAM.NS, DCM Shriram Limited
+DCW.NS, DCW Limited
+DEEPAKNTR.NS, Deepak Nitrite Limited
+DELTACORP.NS, Delta Corp Limited
+DHANI.NS, Dhanuka Agritech Limited
+DHANUKA.NS, Dhanuka Laboratories Limited
+DHFL.NS, Dewan Housing Finance Corporation Limited
+DIAMONDYD.NS, Shree Digvijay Cement Co. Ltd.
+DICIND.NS, DIC India Limited
+DIXON.NS, Dixon Technologies (India) Limited
+DLF.NS, DLF Limited
+DLINKINDIA.NS, D-Link (India) Limited
+DMART.NS, Avenue Supermarts Limited
+DNAMEDIA.NS, Diligent Media Corporation Limited
+DPSCLTD.NS, DPSC Limited
+DREDGECORP.NS, Dredging Corporation of India Limited
+DRREDDY.NS, Dr. Reddy's Laboratories Limited
+DWARKESH.NS, Dwarkesh Industries Limited
+EASTSILK.NS, Eastern Silk Industries Limited
+EASUNREYRL.NS, Easun Reyrolle Limited
+EBBETF0431.NS, Nippon India ETF Consumption
