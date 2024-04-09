@@ -129,18 +129,18 @@ if ticker_symbol:
     plt.plot(df.Close, 'b')
     st.pyplot(fig)
 
-    #Split data into training and testing
+    # Split data into training and testing
     data_training = pd.DataFrame(df['Close'][0:int(len(df) * 0.70)])
     data_testing = pd.DataFrame(df['Close'][int(len(df) * 0.70):int(len(df))])
 
-    #Scale the data
+    # Scale the data
     scaler = MinMaxScaler(feature_range=(0, 1))
     data_training_array = scaler.fit_transform(data_training)
 
-    #Load the model
+    # Load the model
     model = load_model('keras_model.h5')
 
-    #Prepare testing data
+    # Prepare testing data
     past_100_days = data_training.tail(100)
     final_df = pd.concat([past_100_days, data_testing], ignore_index=True)
     input_data = scaler.fit_transform(final_df)
@@ -148,21 +148,21 @@ if ticker_symbol:
     x_test = []
     y_test = []
     for i in range(100, input_data.shape[0]):
-      x_test.append(input_data[i-100: i])
-      y_test.append(input_data[i, 0])
+        x_test.append(input_data[i-100: i])
+        y_test.append(input_data[i, 0])
 
     x_test, y_test = np.array(x_test), np.array(y_test)
 
-    #Make predictions
+    # Make predictions
     y_predicted = model.predict(x_test)
 
-    #Scale back the predicted and test data
+    # Scale back the predicted and test data
     scaler = scaler.scale_
     scale_factor = 1 / scaler[0]
     y_predicted = y_predicted * scale_factor
     y_test = y_test * scale_factor
 
-    #Plot predictions vs original
+    # Plot predictions vs original
     st.subheader('Predictions vs Original')
     fig2 = plt.figure(figsize=(12, 6))
     plt.plot(y_test, 'b', label='Original Price')
@@ -172,67 +172,7 @@ if ticker_symbol:
     plt.legend()
     st.pyplot(fig2)
 
-
-
-
-
-
-
-    #Create a new scaler object
-    scaler_new = MinMaxScaler(feature_range=(0, 1))
-
-    #Fit the scaler to the entire dataset
-    data_scaled = scaler_new.fit_transform(df['Close'].values.reshape(-1, 1))
-
-    #Preprocess data for prediction
-    last_100_days = data_scaled[-100:]
-    input_data = scaler_new.transform(last_100_days)
-
-    x_input = np.array(input_data).reshape(1, 100, 1)
-
-    #Make prediction
-    predicted_price = model.predict(x_input)
-    predicted_price = predicted_price[0][0] / scale_factor
-
-    #Get today's date
-    today = date.today()
-
-    # Get today's price
-    today_price = df['Close'].iloc[-1]
-
-    # Get the whole number part of today's price
-    today_whole_number = int(today_price)
-    adjusted_price = predicted_price
-    # Get the whole number part of the adjusted price
-    adjusted_whole_number = int(adjusted_price)
-
-    # Count the number of digits in the whole number part of today's price
-    digits_today = len(str(today_whole_number))
-
-    # Count the number of digits in the whole number part of the adjusted price
-    digits_adjusted = len(str(adjusted_whole_number))
-
-    # Calculate the adjustment factor based on the difference in digits
-    adjustment_factor = 10 ** (digits_today - digits_adjusted)
-
-    # Adjust the predicted price by multiplying it with the adjustment factor
-    adjusted_price *= adjustment_factor
-
-    # Check if the adjusted price whole number has the first digit in the range 1-9
-    if adjusted_whole_number < 1 or adjusted_whole_number > 9:
-        # Adjust the adjusted price whole number to the range 1-9
-        adjusted_price /= 10
-
-    # Adjust the number of digits in the adjusted price whole number to match today's price whole number
-    while len(str(int(adjusted_price))) < digits_today:
-        adjusted_price *= 10
-
-    #Get tomorrow's date
-    tomorrow = today + pd.DateOffset(days=1)
-
-    #Display the predicted price for tomorrow
-    st.subheader('Next Day Prediction')
-    st.markdown(
-        f"Date: {tomorrow}, Predicted Price: <span class='predicted-price'>{adjusted_price}</span>",
-        unsafe_allow_html=True
-    )
+    # Display comparison table
+    st.subheader('Comparison of Original Price and Predicted Price')
+    comparison_df = pd.DataFrame({'Original Price': y_test, 'Predicted Price': y_predicted.flatten()})
+    st.dataframe(comparison_df, width=800)
